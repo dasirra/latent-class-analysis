@@ -1,2 +1,2 @@
-# gaussian-mixture-models
-Gaussian Mixture model for Python
+# Gaussian Mixture Models
+Gaussian Mixture models python implementation for clustering
