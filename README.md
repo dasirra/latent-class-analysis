@@ -1,2 +1,2 @@
-# Gaussian Mixture Models
-Gaussian Mixture models python implementation for clustering
+# Latent Class Analysis
+LCA model implementation for python. LCA allows clustering on binary features
