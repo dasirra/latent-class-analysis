@@ -93,6 +93,6 @@ ENV/
 .ropeproject
 
 
-### IPythonNotebook ###
-# Temporary data
-.ipynb_checkpoints/
+# Additional
+data
+.idea
