@@ -75,9 +75,10 @@ class LCA:
         if self.verbose > 0:
             print('EM algorithm started')
 
-        self.weight = stats.dirichlet.rvs(np.ones(shape=self.n_components) / 2)[0]
+        self.weight = stats.dirichlet.rvs(np.ones(shape=self.n_components) / 2, random_state=self.random_state)[0]
         self.theta = stats.dirichlet.rvs(alpha=np.ones(shape=n_cols) / 2,
-                                         size=self.n_components)
+                                         size=self.n_components,
+                                         random_state=self.random_state)
 
         for i in range(self.max_iter):
             if self.verbose > 0:
